@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;1,300;1,400;1,600&family=Vina+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+}
+
+.all {
+    background-color: rgb(146, 154, 154);
+    min-height: 100vh;
+    height: auto
+}
+
+.head {
+    width: 100%;
+    display: flex;
+    height: 15vh;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(169, 46, 66);
+    border-radius: 20px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.logo {
+    width: 9%;
+    margin-top: -10px;
+}
+
+#first {
+    margin: 10px;
+    padding: 6px;
+    width: 65%;
+    border-radius: 15px;
+    background-color: rgb(196, 210, 210);
+}
+
+.search {
+    width: 540px;
+    height: 9vh;
+    background-color: rgb(169, 46, 66);
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#butt {
+    background-color: rgb(237, 82, 108);
+    margin: 5px;
+    padding: 4px;
+    width: 25%;
+    color: black;
+    border-radius: 15px;
+    border: none;
+}
+
+#language {
+    display: flex;
+    background-color: rgb(237, 82, 108);
+    width: 11%;
+    margin-right: 25px;
+    height: 6vh;
+    border-radius: 18px;
+    justify-content: space-around;
+    margin: 6px;
+    align-items: center;
+}
+
+#div {
+    margin-top: 20px;
+    border-radius: 15px;
+    width: 380px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgb(169, 46, 66);
+    margin-right: 20px;
+
+}
+
+#second {
+    margin: 10px;
+    padding: 5px;
+    width: 90%;
+    border-radius: 15px;
+    background-color: rgb(187, 210, 210)
+}
+
+#films {
+    width: 540px;
+    background-color: rgb(169, 46, 66);
+    margin-left: 30px;
+    margin-top: 10px;
+    border-radius: 3px;
+    justify-content: center;
+    border-radius: 15px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#save {
+    width: 30%;
+    background-color: rgb(237, 82, 108);
+    margin: 10px;
+    padding: 6px;
+    color: black;
+    border: none;
+    border-radius: 15px;
+}
+
+#posters {
+    margin: 15px;
+    width: 150px;
+    height: 220px;
+}
+
+#title {
+    background-color: rgb(237, 82, 108);
+    margin: 8px;
+    margin-left: 5px;
+    margin-top: 10px;
+    border-radius: 15px;
+    padding: 4px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+#link {
+    background-color: rgb(240, 166, 178);
+    border-radius: 15px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    width: 45%;
+    margin: 8px;
+    margin-left: 5px;
+}
+
+.film-details {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 7px;
+}
+
+#heart {
+    width: 30px;
+    height: 29px;
+    margin: 5px;
+    background-color: rgb(240, 166, 178);
+    border-radius: 30px;
+    padding: 4px;
+
+}
+
+#more-fav {
+    display: flex;
+    width: 130px;
+    align-items: center;
+
+}
+
+#li {
+    background-color: rgb(240, 166, 178);
+    border-radius: 15px;
+    padding: 5px;
+    margin: 5px;
+    border: 1px gray solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+#ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 350px;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    padding-bottom: 25px;
+
+}
+
+#h2 {
+    margin-top: 15px;
+}
+
+#remove {
+    background-color: rgb(237, 82, 108);
+    border-radius: 50px;
+    margin-right: 20px;
+    padding-right: 5px;
+    padding-left: 5px;
+    max-height: 4vh;
+
+
+}
+
+#saved-lists {
+    width: 30%;
+    background-color: rgb(237, 82, 108);
+    margin: 10px;
+    padding: 6px;
+    color: black;
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    margin-top: -7px;
+}
+
+#no-res {
+    margin: 5px;
+    margin-top: 15px;
+    margin-left: 30px;
+    background-color: rgb(169, 46, 66);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 15px;
+    width: 95%;
+}
+@media only screen and (max-width: 600px) {
+    #language {
+        display: none;
+    }
+    .all {
+        background-color: rgb(146, 154, 154);
+        min-height: 100vh;
+        height: auto;
+    }
+    #container {
+        display: flex;
+        flex-direction: column;
+    }
+    #div {
+        width: 90%;
+        margin-left: 19px;
+    }
+    .search {
+        width: 90%;
+        height: 11vh;
+        margin: 0px;
+        margin-left: 19px;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+ 
+    }
+    .head {
+        width: 100%;
+        height: 15vh;
+    }
+    .logo {
+        width: 28%;
+        margin-top: -10px;
+    }
+    #movies {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #first {
+        width: 60%;
+
+    }
+    #films {
+        width: 90%;
+        margin: 0px;
+        padding: 0px;
+        margin-top: 10px;
+        margin-left: 19px;
+    }
+    #posters {
+        margin: 15px;
+        width: 100px;
+        height: 170px;
+    }
+    #title {
+        width: 95%;
+    }
+    #no-res {
+        margin-left: 19px;
+        width: 90%;
+    }
+    #ul {
+        width: 100%;
+    }
+    #remove {
+        max-height: 7vh;
+        margin: 2px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+}
+@media only screen and (min-width: 398px) and (max-width: 539px) {
+    .logo {
+        width: 22%;
+        margin-top: -9px;
+    }
+}
+@media only screen and (min-width: 540px) and (max-width: 600px) {
+    .logo {
+        width: 19%;
+        margin-top: -9px;
+    }
+}
